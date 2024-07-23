@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy Ice Cream</title>
+    <link rel="shortcut icon" href="logo.png" >
+    <link rel="stylesheet" type="text/css" href="buy.css">
+</head>
+<body>
+    <header>
+        <h1>Buy Ice Cream</h1>
+        <img src="logo.png" alt="Ice Cream Logo">
+    </header>
+    <main style="background-image: url(bg4.jpg);">
+        <h2>Choose your favorite ice cream flavor:</h2>
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="flavor">Flavor:</label>
+            <select id="flavor" name="flavor" required>
+                <option value="vanilla">Vanilla - Strawberry</option>
+                <option value="chocolate">Vanila - Chocolate</option>
+                <option value="strawberry">Vanila - Pistah</option>
+            </select>
+
+            <input type="submit" value="Buy Now">
+        </form>
+    </main>
+</body>
+</html>
